@@ -1,16 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
 
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background: #222;
+    margin: 0;
 }
 
 body {
-  font-family: "ZCOOL KuaiLe", cursive;
-  transition: all 0.3s;
-  font-size: 18px;
+    font-family: "ZCOOL KuaiLe", cursive;
+    transition: all 0.3s;
+    font-size: 18px;
 }

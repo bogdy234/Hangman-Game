@@ -1,3 +1,4 @@
 export interface HomeProps {
-  getSentence: (a: string) => void;
+    sentence: string;
+    setSentence: (a: string) => void;
 }
